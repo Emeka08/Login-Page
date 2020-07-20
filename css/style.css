@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+	background: linear-gradient(135deg,
+						rgba(0, 0, 0, 0.8) 0%,
+						rgba(0, 0, 0, 0.3) 50%),
+			url('https://picsum.photos/id/10/1200/700');
+	background-size: cover;
+	position: relative;
+}
+p {
+    font-size: 12px;
+    width: 50%;
+}
+.login-body {
+    width: 70%;
+    height: 400px;
+    margin: 50px auto 0;
+}
+.login-body-hidden {
+    margin-top: 52px;
+    width: 60%;
+    height: 397px;
+    position: relative;
+    display: none !important;
+    border-radius: 40px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.623);
+    padding: 100px 0 0 35px;
+}
+.underline1 {
+    margin: 0 0 20px 50px;
+    width: 50px;
+    border-bottom: 3px solid white;
+}
+.login-body-shown {
+    position: absolute;
+    top: -1px;
+    right: 147px;
+    text-align: center;
+    width: 55%;
+    height: 400px;
+    border-radius: 40px;
+    background-color: white;
+    padding-top: 30px;
+}
+.underline2 {
+    margin: 0 0 20px 80px;
+    width: 50px;
+    border-bottom: 3px solid rgba(0, 0, 255, 0.623);
+}
+.input-text {
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.411);
+}
+.login-label {
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.363);
+}
+.btn2 {
+    background-color: rgba(0, 0, 255, 0.623);
+    font-weight: bold;
+}
+.btn2:hover {
+    background-color: white;
+    color: black !important;
+}
+
+
+@media screen and (min-width: 450px) {
+    .underline2 {
+        margin: 0 0 20px 105px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .underline2 {
+        margin: 0 0 20px 135px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .underline2 {
+        margin: 0 0 20px 160px;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .login-body-hidden {
+        display: block !important;
+    }
+    .btn1 {
+        margin-left: 90px;
+        color: rgba(0, 0, 255, 0.623);
+        font-weight: bold;
+    }
+    .btn1:hover {
+        background-color: rgba(0, 0, 255, 0.623);
+        color: white;
+    }
+    .login-body-shown {
+        padding-top: 60px;
+        right: 114px;
+        width: 40%;
+    }
+    .underline2 {
+        margin: 0 0 20px 135px;
+    }
+}
+
+@media screen and (min-width: 870px) {
+    .login-para {
+        width: 70% !important;
+    }
+    .login-body-shown {
+        right: 90px;
+        width: 43%;
+    }
+    .underline2 {
+        margin: 0 0 20px 180px;
+    }
+    .btn1 {
+        margin-left: 135px;
+    }
+}
+
+@media screen and (min-width: 975px) {
+    .login-para {
+        width: 50% !important;
+    }
+    .login-body-shown {
+        right: 175px;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .login-para {
+        width: 50% !important;
+    }
+    .login-body-shown {
+        right: 180px;
+    }
+    .login-body-hidden {
+        padding: 100px 0 0 50px;
+    }
+    .underline2 {
+        margin: 0 0 20px 200px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .login-body-shown {
+        right: 220px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .underline2 {
+        margin: 0 0 20px 250px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .login-body-shown {
+        right: 280px;
+    }
+}
